@@ -18,10 +18,28 @@ const style = StyleSheet.create({
         fontFamily:'Arial'
     },
 
-    text:{
+    contaider: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+    },
+
+    title:{
+        margin: 10,
         color: '#fff',
         fontSize: 20,
         fontFamily:'Verdana'
-    }
+    },
+
+    text:{
+        color: '#fff',
+        fontSize: 15,
+        fontFamily:'Verdana',
+        textAlign: 'justify',
+        width: 400,
+        lineHeight: 30,
+        
+    },
 });
 export default style;
